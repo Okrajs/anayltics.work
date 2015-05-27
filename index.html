@@ -1,4 +1,18 @@
-<h1>Hello World</h1>
-<p>
-  I'm <code>analytics.work</code>.
-</p>
+<h1>anayltics.work</h1>
+
+<p>Just a mock analytics site implemented as a proof-of-concept for Okrajs.</p>
+
+<h2>Usage</h2>
+
+<p>Include the following <code>iframe</code> in your page:</p>
+
+<pre><code>&lt;iframe src="//www.anayltics.work/analytics-gadget.html" /&gt;
+</code></pre>
+
+<p>The analytics requires the application to define the following interface:</p>
+
+<pre><code>Okra.define('get', 'title', function () {
+    return document.title;
+}).allow('www.anayltics.work');
+</code></pre>
+
