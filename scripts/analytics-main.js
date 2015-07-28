@@ -5,7 +5,7 @@
 
     var site = Okra.inlet(
         '_parent', 
-        'https://okra-demo-app.omardo.com'
+        'http://okra-demo-app.omardo.com'
     );
 
 
